@@ -39,11 +39,6 @@ fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias dev='ssh -i /Users/ahmadmehio/dev/ruby/permissions/onDemandKey.cer ubuntu@dev.icars.cc'
-alias staging='ssh -i /Users/ahmadmehio/dev/ruby/permissions/onDemandKey.cer ubuntu@dev.icars.cc'
-alias ourrepo='cd /Users/ahmadmehio/dev/ruby/icars'
-alias iosrepo='cd /Users/ahmadmehio/dev/ios/icars'
-
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
